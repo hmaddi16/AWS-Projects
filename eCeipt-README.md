@@ -26,6 +26,13 @@
 
 ---
 
+## 📊 Architectural Diagram
+Below is the high-level architecture for this project, illustrating how AWS services interact with one another in a serverless pipeline:
+
+<img width="1291" height="818" alt="AWS (2025) horizontal framework" src="https://github.com/user-attachments/assets/dc8f57bb-d0ce-4fe5-baab-fcf7eb8161c7" />
+
+---
+
 ## 🛠️ Setup Instructions
 
 1. **Create an S3 bucket** with a folder named `incoming/`
@@ -58,8 +65,3 @@
    - Destination: Lambda function
 
 ---
-
-## 📊 Architectural Diagram
-Below is the high-level architecture for this project, illustrating how AWS services interact with one another in a serverless pipeline:
-
-<img width="1291" height="818" alt="AWS (2025) horizontal framework" src="https://github.com/user-attachments/assets/dc8f57bb-d0ce-4fe5-baab-fcf7eb8161c7" />
