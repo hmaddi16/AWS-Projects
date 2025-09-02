@@ -63,4 +63,4 @@
 ## 📊 Architectural Diagram
 Below is the high-level architecture for this project, illustrating how AWS services interact with one another in a serverless pipeline:
 
-<img width="1200" height="800" alt="AWS (2025) horizontal framework" src="https://github.com/user-attachments/assets/a66a0b7e-ead9-4ced-9eb4-9d896ad64d32" />
+<img width="1291" height="818" alt="AWS (2025) horizontal framework" src="https://github.com/user-attachments/assets/dc8f57bb-d0ce-4fe5-baab-fcf7eb8161c7" />
