@@ -34,7 +34,6 @@
    - Sort (optional): `date` (String)
 3. **Configure SES**
    - Verify both sender and recipient emails
-   - (Move SES out of sandbox for full deployment)
 4. **Create IAM Role**
    - Name: `ReceiptProcessingLambdaRole`
    - Trusted entity: Lambda
@@ -52,7 +51,7 @@
       - `DYNAMODB_TABLE`
       - `SES_RECIPIENT_EMAIL`
       - `SES_SENDER_EMAIL`
-   - Deploy parsing code
+   - Deploy code file
 6. **Set up S3 Event Trigger**
    - Event type: ObjectCreated
    - Prefix: `incoming/`
