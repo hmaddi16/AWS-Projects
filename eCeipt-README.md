@@ -60,4 +60,4 @@
 
 ---
 
-## 📊 Archietural Diagram
+## 📊 Architectural Diagram
