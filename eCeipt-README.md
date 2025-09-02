@@ -59,3 +59,5 @@
    - Destination: Lambda function
 
 ---
+
+## 📊 Archietural Diagram
