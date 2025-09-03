@@ -16,13 +16,15 @@
 
 **Technologies & Services Used:**
 
-- **Amazon S3** – stores uploaded receipts
-- **Amazon Lambda** – core for receipt parsing and emailing
-- **Amazon Textract** – extracts text from uploaded PDFs
-- **Amazon DynamoDB** – stores parsed metadata
-- **Amazon SES** – sends summary emails
-- **IAM** – secure access across services
-- **CloudWatch** – centralized logs for debugging
+| Service                  | Role in the System |
+|--------------------------|---------------------|
+| **Amazon S3** | stores uploaded receipts |
+| **Amazon Lambda** | core for receipt parsing and emailing |
+| **Amazon Textract** | extracts text from uploaded PDFs |
+| **Amazon DynamoDB** | stores parsed metadata |
+| **Amazon SES** | sends summary emails |
+| **IAM** | secure access across services |
+| **CloudWatch** | centralized logs for debugging |
 
 ---
 
