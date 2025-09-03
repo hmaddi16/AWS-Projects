@@ -1,4 +1,4 @@
-# eCeipt — AWS Receipt Parser
+# eCeipt — AWS Receipt Parser & Notifier
 
 **eCeipt** is an AWS cloud-native project designed to automate the process of extracting information from uploaded receipt files and sending a parsed summary via email. Built with serverless technologies and AWS native services, the system is event-driven and real-time.
 
