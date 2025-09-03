@@ -1,4 +1,4 @@
-# 📈 FinSite – Real-Time Stock Data Analytics Pipeline on AWS
+# FinSite – Real-Time Stock Data Analytics Pipeline on AWS
 
 **FinSite** is a real-time, serverless analytics pipeline that ingests, processes, stores, and analyzes live stock market data using a suite of AWS services.  
 Designed for scalability and low latency, the system enables immediate trend detection and alerting, while supporting historical querying and fast lookups.
