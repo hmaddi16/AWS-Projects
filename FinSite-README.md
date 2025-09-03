@@ -8,18 +8,17 @@ Designed for scalability and low latency, the system enables immediate trend det
 ## 🚀 Features
 
 - Real-time stock data ingestion with **Amazon Kinesis Data Streams**
-- Stream processing and trend detection using **AWS Lambda**
-- Structured storage of recent data in **Amazon DynamoDB**
+- Processing data and detecting anomalies using **AWS Lambda**
+- Storage of recent data in **Amazon DynamoDB** for querying
 - Long-term storage of raw data in **Amazon S3**
 - Historical query capability with **Amazon Athena**
-- Real-time alerts via **Amazon SNS** (Email/SMS)
-- Secure, role-based access control with **IAM**
+- Real-time alerts via **Amazon Lambda & Amazon SNS** (Email/SMS)
 
 ---
 
 ## 🧱 Architecture
 
-**Core AWS Services:**
+**Technologies & Services Used:**
 
 | Service                  | Role in the System |
 |--------------------------|---------------------|
