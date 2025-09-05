@@ -2,8 +2,6 @@
 
 A full-stack web application for comparing AWS services across categories, features, and pricing models. Built with React TypeScript frontend and Python FastAPI backend.
 
-![AWS Service Comparison Tool](https://img.shields.io/badge/AWS-Service_Comparison-orange) ![React](https://img.shields.io/badge/React-18.2.0-blue) ![TypeScript](https://img.shields.io/badge/TypeScript-4.9.5-blue) ![FastAPI](https://img.shields.io/badge/FastAPI-0.104.1-green) ![Python](https://img.shields.io/badge/Python-3.8+-green)
-
 ## Features
 
 - **Service Browsing**: View all AWS services with detailed information
@@ -169,3 +167,4 @@ curl http://localhost:8000/services/ec2
    ```
 
 2. The built files will be in the `frontend/build` directory
+
