@@ -139,28 +139,6 @@ curl http://localhost:8000/categories
 curl http://localhost:8000/services/ec2
 ```
 
-## AWS Services Included
-
-The application includes detailed information for the following AWS services:
-
-### Compute
-- **Amazon EC2** - Virtual servers in the cloud
-- **AWS Lambda** - Serverless compute service
-
-### Storage
-- **Amazon S3** - Object storage service
-
-### Database
-- **Amazon RDS** - Managed relational database
-- **Amazon DynamoDB** - NoSQL database service
-
-### Networking
-- **Amazon CloudFront** - Content delivery network
-- **Amazon VPC** - Virtual private cloud
-
-### Security
-- **AWS IAM** - Identity and access management
-
 ## Usage
 
 1. **Browse Services**: View all available AWS services on the main page
@@ -191,36 +169,3 @@ The application includes detailed information for the following AWS services:
    ```
 
 2. The built files will be in the `frontend/build` directory
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## Future Enhancements
-
-- [ ] Add more AWS services
-- [ ] Include pricing calculator
-- [ ] Add service recommendations based on use cases
-- [ ] Implement user authentication and saved comparisons
-- [ ] Add export functionality for comparisons
-- [ ] Include real-time pricing data from AWS API
-- [ ] Add service availability by region
-- [ ] Include performance benchmarks
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## Support
-
-If you encounter any issues or have questions:
-
-1. Check the [Issues](../../issues) page for existing issues
-2. Create a new issue with detailed information
-3. Ensure both backend and frontend servers are running
-4. Check the browser console for any JavaScript errors
-5. Verify the API is accessible at http://localhost:8000/docs
